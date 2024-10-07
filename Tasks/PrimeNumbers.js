@@ -7,10 +7,10 @@ const isPrime = (number) => {
   return true;
 };
 
-const numbersIsPrimeFromRange = (start, end) => {
+const getNumbersIsPrimeFromRange = (start, end) => {
   let primeNumbers = [];
   for (let i = start; i <= end; i++) {
-    if (isPrime(i)) {
+    if (isPrimse(i)) {
       primeNumbers.push(i);
     }
   }
